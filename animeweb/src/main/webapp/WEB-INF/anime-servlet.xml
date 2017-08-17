@@ -16,6 +16,8 @@
 	
 	<!-- 静态资源(js、image等)的访问 -->
     <mvc:default-servlet-handler/>
+    <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"/>
+    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/>
 	
 	<!-- 开启注解 -->
 	<mvc:annotation-driven/>

@@ -10,8 +10,7 @@ public class BaseController {
 	
 	@RequestMapping(value="/hello",method=RequestMethod.GET)
 	public ModelAndView Index_page(){
-		ModelAndView mv = new ModelAndView("index");
-		System.out.println("in");
+		ModelAndView mv = new ModelAndView("index2");
 		return mv;
 	}
 	
